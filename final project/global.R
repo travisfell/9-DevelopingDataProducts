@@ -4,7 +4,6 @@
 
 library(datasets)
 data(mtcars)
-
 mpg <- function(wt, trans){
  mpgmodel <- lm(mpg ~ am + wt, mtcars)
   trans <- as.numeric(trans)

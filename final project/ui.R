@@ -7,7 +7,8 @@ shinyUI(pageWithSidebar(
     headerPanel("Predicting MPG"),
     sidebarPanel(
       h3('Enter your parameters'),
-      h6("To find predicted MPG, enter the weight in tons and transmission type below. Then click Submit."),
+      h6("This app creates a predictive model for MPG by weight and transmission type based on the mtcars data set."),
+      h6("To find predicted MPG using this model, enter the weight in tons and transmission type below. Then click Submit."),
       numericInput('weight', 'Weight in tons', 2.5, min = 1.5, max = 5.5, step = .25),
       radioButtons('trans', 'Select Transmission Type', 
         c("Automatic" = 0,

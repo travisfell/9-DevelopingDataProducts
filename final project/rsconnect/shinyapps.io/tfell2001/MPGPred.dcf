@@ -2,6 +2,6 @@ name: MPGPred
 account: tfell2001
 server: shinyapps.io
 appId: 73671
-bundleId: 331490
+bundleId: 332454
 url: https://tfell2001.shinyapps.io/MPGPred
-when: 1450154525.45676
+when: 1450235701.2695
